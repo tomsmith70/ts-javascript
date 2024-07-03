@@ -1,0 +1,74 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #1e90ff; /* Dodger Blue */
+    margin-top: 20px;
+}
+
+/* Paragraph styles */
+.ts-para {
+    text-align: center;
+    color: #555;
+    font-size: 1.2em;
+}
+
+/* Container styles */
+.ts-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Question styles */
+.ts-container h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Options styles */
+.ts-options {
+    margin-top: 10px;
+}
+
+/* Option styles */
+.ts-option {
+    margin-bottom: 5px;
+}
+
+/* Radio button styles */
+.ts-option input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Label styles */
+.ts-option label {
+    color: #555;
+    cursor: pointer;
+}
+
+/* Button styles */
+.ts-container button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+}
+
+.ts-container button:hover {
+    background-color: #007acc; /* Darker shade of Dodger Blue */
+}
